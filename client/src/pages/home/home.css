@@ -1,0 +1,18 @@
+.home{
+    display: flex;
+    margin-bottom: 20px;
+}
+.sorryMessage{
+    flex:9;
+    color: rgb(219, 12, 12);
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+@media screen and (max-width:480px) {
+    .home{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+}
